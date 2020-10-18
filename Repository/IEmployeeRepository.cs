@@ -7,7 +7,7 @@ namespace DapperDemo.Repository
 {
     public interface IEmployeeRepository
     {
-         Task<Employee> GetById(int id);
+         Task<Employee> GetByID(int id);
          Task<List<Employee>> GetByDateOfBirth(DateTime dateOfBirth);
          int AddEmployee(Employee emp);
 

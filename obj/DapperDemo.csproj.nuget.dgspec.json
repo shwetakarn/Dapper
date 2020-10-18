@@ -58,7 +58,7 @@
             },
             "Microsoft.Entityframeworkcore.sqlserver": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[3.1.9, )"
             },
             "system.data.sqlclient": {
               "target": "Package",

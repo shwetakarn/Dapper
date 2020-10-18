@@ -60,7 +60,7 @@ namespace DapperDemo.Repository
             }
         }
 
-        public async Task<Employee> GetById(int id)
+        public async Task<Employee> GetByID(int id)
         {
             using(IDbConnection conn = connection) 
             {

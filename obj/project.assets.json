@@ -5662,7 +5662,7 @@
       "Dapper.Extensions.NetCore >= 3.2.0",
       "Microsoft.Entityframeworkcore >= 3.1.9",
       "Microsoft.Entityframeworkcore.design >= 3.1.9",
-      "Microsoft.Entityframeworkcore.sqlserver >= *",
+      "Microsoft.Entityframeworkcore.sqlserver >= 3.1.9",
       "system.data.sqlclient >= 4.8.2"
     ]
   },
@@ -5723,7 +5723,7 @@
           },
           "Microsoft.Entityframeworkcore.sqlserver": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[3.1.9, )"
           },
           "system.data.sqlclient": {
             "target": "Package",
